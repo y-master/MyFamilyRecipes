@@ -1,6 +1,7 @@
 <?php
 // Connexion à la base de données
-$db = new PDO('sqlite:recipes.db');
+$db = new PDO('sqlite:bdd/recipes.db');
+
 
 // Gestion de l'envoi du formulaire
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

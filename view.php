@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données
-$db = new PDO('sqlite:recipes.db');
+$db = new PDO('sqlite:bdd/recipes.db');
 
 // Récupère l'ID de la recette depuis l'URL
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;

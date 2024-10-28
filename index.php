@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données SQLite
-$db = new PDO('sqlite:recipes.db');
+$db = new PDO('sqlite:bdd/recipes.db');
 
 // Requête de recherche
 $search = isset($_GET['search']) ? $_GET['search'] : '';
